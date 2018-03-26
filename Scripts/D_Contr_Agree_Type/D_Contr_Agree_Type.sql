@@ -1,0 +1,20 @@
+--
+-- SCRIPT D_Contr_Agree_Type, entity for URM
+-- Engine: Teradata
+-- Server: 10.167.37.107
+-- DB: AR_PROD_ODS_DATA_VW
+-- Owner: Big Data, Telefonica Argentina
+--
+
+SELECT '722-07' AS OPERATOR_ID,
+10000*EXTRACT(YEAR FROM CURRENT_DATE-1)+100*EXTRACT(MONTH FROM CURRENT_DATE-1)+1 AS CA_TYPE_DT,
+S.OFFER_TYPE_KEY AS CA_TYPE_ID,
+CASE WHEN S.OFFER_TYPE_KEY IN(1003) THEN 'postpago full'
+WHEN S.OFFER_TYPE_KEY =1001 THEN 'Contrato de servicio postpago control o hibrido' 
+ELSE 'prepago' END  AS D_CA_TYPE_DES
+FROM AR_PROD_ODS_DATA_VW.OFFER_TYPE S
+GROUP BY 2,3,4
+ORDER BY 2,3,4;
+ 
+
+
