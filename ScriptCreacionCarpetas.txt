@@ -1,0 +1,157 @@
+using System;
+
+public class Test
+{
+  public static void Main()
+  {
+  }
+}
+
+
+
+
+echo "" > ./D_Mobile_Billing_Cycle/script.sql
+echo "" > ./Mobile_Movement/script.sql
+echo "" > ./Mobile_Movement/script.sql
+echo "" > ./Control de Gestión/script.sql de Gestión
+echo "" > ./Control  de Gestión/script.sql de Gestión
+echo "" > ./MOBILE_REVENUE/script.sql
+echo "" > ./MOBILE_REVENUE/script.sql
+echo "" > ./MOBILE_REVENUE/script.sql
+echo "" > ./Mobile_Line/script.sql
+echo "" > ./Mobile_Line/script.sql
+echo "" > ./IMEI_HIST/script.sql
+echo "" > ./D_AgeSegment/script.sql
+echo "" > ./D_Geographical_Area/script.sql
+echo "" > ./D_Geographical_Area_Rel/script.sql
+echo "" > ./D_Geographical_Area_Type/script.sql
+echo "" > ./D_Line_Status/script.sql
+echo "" > ./D_Mobile_Line_Type/script.sql
+echo "" > ./D_Mobile_PrePostpaid/script.sql
+echo "" > ./D_Movement_Type/script.sql
+echo "" > ./D_Port_Operator/script.sql
+echo "" > ./D_Segment/script.sql
+echo "" > ./IMEI_TAC/script.sql
+echo "" > ./IMEI_TAC/script.sql
+
+mkdir D_Mobile_Billing_Cycle
+mkdir Mobile_Movement  
+mkdir Mobile_Movement
+mkdir Control de Gestión
+mkdir Control de Gestión
+mkdir MOBILE_REVENUE
+mkdir MOBILE_REVENUE
+mkdir MOBILE_REVENUE
+mkdir Mobile_Line
+mkdir Mobile_Line
+mkdir IMEI_HIST
+mkdir D_AgeSegment
+mkdir D_Geographical_Area
+mkdir D_Geographical_Area_Rel
+mkdir D_Geographical_Area_Type
+mkdir D_Line_Status
+mkdir D_Mobile_Line_Type
+mkdir D_Mobile_PrePostpaid
+mkdir D_Movement_Type
+mkdir D_Port_Operator
+mkdir D_Segment
+mkdir IMEI_TAC
+mkdir IMEI_TAC
+
+
+
+
+echo "" > ./Mobile_Handset_Sale/script.sql
+echo "" > ./D_Channel/script.sql
+echo "" > ./D_IMEI_Origin/script.sql
+echo "" > ./D_Mobile_Handset_Sale_Type/script.sql
+echo "" > ./D_Sales_Agent/script.sql
+echo "" > ./D_SalesNetwork/script.sql
+echo "" > ./D_Time_Range/script.sql
+echo "" > ./Mobile_Line_Data_Traffic/script.sql
+echo "" > ./Mobile_Line_Voice_Traffic/script.sql
+echo "" > ./Mobile_Line_Message_Traffic/script.sql
+echo "" > ./D_Day_Range/script.sql
+echo "" > ./D_Distribution_Channel/script.sql
+echo "" > ./Mobile_Line_Data_Traffic_Cycle/script.sql
+echo "" > ./Mobile_Line_Voice_Traffic_Cycle/script.sql
+echo "" > ./Mobile_Line_Mess_Traffic_Cycle/script.sql
+echo "" > ./D_Mobile_Service/script.sql
+echo "" > ./D_Mobile_Service_Group/script.sql
+echo "" > ./D_Mobile_Subservice/script.sql
+echo "" > ./D_Mobile_Tariff_Plan/script.sql
+echo "" > ./D_Payment_Type/script.sql
+echo "" > ./D_Reason_Call/script.sql
+echo "" > ./Customer_Offering_Purchase/script.sql
+echo "" > ./Mobile_Service/script.sql
+echo "" > ./D_Campaign/script.sql
+echo "" > ./D_Claim_Type/script.sql
+echo "" > ./D_Contr_Agree_Type/script.sql
+echo "" > ./D_Cust_payment_status/script.sql
+echo "" > ./D_CustLifeCycle/script.sql
+echo "" > ./D_Customer_Education/script.sql
+echo "" > ./D_Customer_IdentitfDoc_Type/script.sql
+echo "" > ./D_Customer_Type/script.sql
+echo "" > ./D_Fixed_Billing_Cycle/script.sql
+echo "" > ./D_Fixed_Broadband_Type/script.sql
+echo "" > ./D_Fixed_Mvmt_Detaild_Type./scriptsql
+echo "" > ./D_Fixed_Mvmt_Tech_Type/script.sql
+echo "" > ./D_Fixed_Service/script.sql
+echo "" > ./D_Fixed_Service_Group/script.sql
+echo "" > ./D_Fixed_Service_Movement/script.sql
+echo "" > ./D_Fixed_Subservice./scriptsql
+echo "" > ./D_Fixed_Tariff_Plan/script.sql
+echo "" > ./D_Fixed_Voice_Line_Type/script.sql
+echo "" > ./D_Fixed_Workstation_Type/script.sql
+echo "" > ./D_Internal_Risk_Score/script.sql
+echo "" > ./D_SocioeconomicLevel/script.sql
+echo "" > ./D_Vendor/script.sql
+echo "" > ./Customer/script.sql
+echo "" > ./Call_Center_Call/script.sql
+echo "" > ./Fixed_Line/script.sql
+echo "" > ./Fixed_Line_Tariff/script.sql
+echo "" > ./Fixed_Line_Traffic/script.sql
+echo "" > ./Fixed_Movement/script.sql
+echo "" > ./Fixed_Revenue/script.sql
+echo "" > ./Commitment_Agreement/script.sql
+echo "" > ./Complaint_BreakDown/script.sql
+echo "" > ./Fixed_Service/script.sql
+echo "" > ./Fixed_Service_Movement/script.sql
+echo "" > ./D_Mobile_Technology/script.sql
+echo "" > ./D_Mobile_Service_Movement/script.sql
+
+
+
+
+
+
+Faltan: 
+>D_Bill_Type - esta el script. Donde hay mas infor de esta entidad?
+  
+>D_Billable_Concept - hay script. donde hay mas info.. ? 
+  
+>D_Offering_Category - hay script. donde hay mas info.. ?
+
+>D_Payment_Method - hay script. donde hay mas info.. ?
+  
+>D_Tax - hay script. donde hay mas info.. ?
+  
+
+  
+>CallCDR falta script
+
+>D_Billable_Concept_Type - donde hay mas info.. ?
+
+>D_Offering - donde hay mas info.. ?
+  
+>D_Offering_Item - donde hay mas info.. ?
+  
+>Data_XDR - donde hay mas info.. ?
+  
+>MMS - donde hay mas info.. ?
+  
+>Mobile_Line_Daily - donde hay mas info.. ?
+
+>Mobile_Line_Data_Tariff ..
+
+  >SMS..
